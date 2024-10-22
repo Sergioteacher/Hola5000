@@ -15,6 +15,10 @@ public class Hola5000 {
      */
     public static void main(String[] args) {
         System.out.println("Hola 5000");
+        System.out.println("Iniciando programa");
+
+        HolaVentana MioVentana = new HolaVentana();
+        MioVentana.setVisible(true);
     }
     
 }
